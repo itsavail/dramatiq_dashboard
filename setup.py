@@ -25,7 +25,7 @@ with open(rel("dramatiq_dashboard", "__init__.py"), "r") as f:
 dependencies = [
     "dramatiq[redis]>=1.6,<2.0",
     "jinja2",
-    "redis>=5.0,<6.0",
+    "redis>=5.0,<7.0",
 ]
 
 extra_dependencies = {}
